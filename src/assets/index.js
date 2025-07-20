@@ -6,7 +6,10 @@ import projectThree from "./images/projects/projectThree.jpeg";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
-import contactImg from "./images/contact/contactImg.png";
+import contactImg from "./images/contact/contactImg.png"; 
+import imdf from "./images/imdf.png";
+import Ppic from "./images/Ppic.png";
+import picpng from "./images/picpng.png";
 
 export {
   logo,
@@ -18,4 +21,7 @@ export {
   testimonialTwo,
   quote,
   contactImg,
+  imdf,
+  Ppic,
+  picpng,
 };
