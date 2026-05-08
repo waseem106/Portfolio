@@ -1,6 +1,5 @@
 import React from 'react'
 import {  imdf } from "../../assets/index";
-import { FaDropbox } from 'react-icons/fa';
 
 
 const RightBanner = () => {
