@@ -29,8 +29,8 @@ const Experience = () => {
           />
           <ResumeCard
             title="Frontend / MERN Developer"
-            subTitle="Eizitech Software House — (Feb 2025 - Mar 2025)"
-            result="Gujranwala, Pakistan"
+            subTitle="Ezitech Software House — (Feb 2025 - Mar 2025)"
+            result="Rawalpindi, Pakistan"
             des="Designed and implemented responsive UIs with React.js, Tailwind CSS, and Bootstrap. Developed and integrated RESTful APIs using Node.js and Express.js across multiple client projects."
           />
         </div>
