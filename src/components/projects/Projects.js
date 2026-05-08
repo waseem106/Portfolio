@@ -17,40 +17,24 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="Chatting Web Application"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="EasyLlama (Ongoing)"
+          des="Building responsive, accessible UI components for a compliance training platform serving 3.8M+ learners across 8,000+ organizations. Focused on scalable frontend architecture and performance using React.js and Next.js."
           src={projectOne}
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Smodin — AI Platform & Chrome Extension"
+          des="Contributed to an AI content generation/detection platform with ~1M monthly users. Built a Plasmo-based Chrome Extension that captures selected text and returns AI results inline via backend API integration (Next.js / NestJS)."
           src={projectTwo}
         />
         <ProjectsCard
-          title="Admin Dashboard"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="RapidChat — Real-time Chat App"
+          des="Designed and built a real-time messaging system supporting instant messaging and group conversations using Socket.IO, with a responsive React.js frontend and Node.js/Express backend services."
           src={projectThree}
         />
         <ProjectsCard
-          title="gym assistant chat bot"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="TO DO APP"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="VCart — E-commerce Platform"
+          des="Built an end-to-end e-commerce application with React.js, Node.js/Express, MySQL, and Stripe payments. Implemented REST APIs, database schemas, and a complete checkout and payment flow."
           src={projectOne}
-        />
-        <ProjectsCard
-          title="Calculator APP "
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
         />
       </div>
     </section>

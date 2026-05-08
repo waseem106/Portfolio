@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer."],
+      words: ["Full-Stack MERN Developer.", "React & Next.js Developer.", "NestJS & Node.js Developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -26,9 +26,10 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        I a'm a full-stack web developer specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js). I love creating dynamic and responsive web applications that deliver great user experiences from front to back. With a passion for coding and a commitment to clean, efficient code, I'm always excited to tackle new challenges and bring innovative ideas to life.
-
-
+          Results-driven Full-Stack MERN Developer with 1+ year of hands-on experience building scalable web applications,
+          browser extensions, and AI-powered platforms in production. Currently contributing to EasyLlama — a compliance
+          training platform serving 3.8M+ learners across 8,000+ organizations — delivering responsive, accessible UI with
+          React.js and Next.js. Focused on clean architecture, performance, and seamless API integration.
         </p>
       </div>
      {/* Media */}
