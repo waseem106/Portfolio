@@ -1,13 +1,25 @@
 import React from 'react'
 import { Link } from "react-scroll";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import {logo} from "../../assets/index"
+import { Ppic } from "../../assets/index"
 
 const Footer = () => {
   return (
     <div className="w-full py-16 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 gap-10">
       <div className="w-full h-full flex flex-col gap-6">
-        <img className="w-32" src={logo} alt="logo" />
+        <div className="flex items-center gap-4">
+          <img
+            className="w-16 h-16 rounded-full object-cover shadow-shadowOne"
+            src={Ppic}
+            alt="Waseem Aziz"
+          />
+          <div className="flex flex-col">
+            <p className="text-gray-200 text-lg font-titleFont font-semibold">
+              Waseem Aziz
+            </p>
+            <p className="text-gray-400 text-sm">Full-Stack MERN Developer</p>
+          </div>
+        </div>
         <p className="text-gray-400 text-base leading-6 max-w-md">
           Full-Stack MERN Developer building scalable web apps, browser extensions, and
           production-ready UI with React.js and Next.js.

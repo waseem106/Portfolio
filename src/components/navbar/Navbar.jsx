@@ -45,9 +45,8 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={Ppic} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  Full-Stack MERN Developer building scalable web apps, browser extensions,
+                  and production-ready UI with React.js and Next.js.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
