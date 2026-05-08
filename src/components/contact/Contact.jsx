@@ -76,16 +76,16 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                 <a
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 h-12 rounded-lg bg-[#141518] text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
+                  className="w-full min-w-0 inline-flex items-center justify-center gap-3 px-4 md:px-6 h-12 rounded-lg bg-[#141518] text-sm md:text-base text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
                   href={`mailto:${emailAddress}?subject=${encodeURIComponent("Portfolio Inquiry")}`}
                 >
                   <FaEnvelope />
                   Email Me
                 </a>
                 <a
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 h-12 rounded-lg bg-[#141518] text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
+                  className="w-full min-w-0 inline-flex items-center justify-center gap-3 px-4 md:px-6 h-12 rounded-lg bg-[#141518] text-sm md:text-base text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
                   href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Hi Waseem, I saw your portfolio and want to discuss a project.")}`}
                   target="_blank"
                   rel="noreferrer"
@@ -94,7 +94,7 @@ const Contact = () => {
                   WhatsApp
                 </a>
                 <a
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 h-12 rounded-lg bg-[#141518] text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
+                  className="w-full min-w-0 sm:col-span-2 md:col-span-1 inline-flex items-center justify-center gap-3 px-4 md:px-6 h-12 rounded-lg bg-[#141518] text-sm md:text-base text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
                   href={`tel:${phoneNumber}`}
                 >
                   <FaPhoneAlt />

@@ -7,14 +7,14 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
+      className="py-12 font-titleFont flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      <div>
+      <div className="w-full lgl:w-1/2">
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2025 - Present</p>
           <h2 className="text-4xl font-bold">Work Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-8 pb-2">
           <ResumeCard
             title="Associate MERN Stack Developer"
             subTitle="Devsloop Technologies — (Jul 2025 - Present)"
@@ -35,12 +35,12 @@ const Experience = () => {
           />
         </div>
       </div>
-      <div>
+      <div className="w-full lgl:w-1/2">
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">Selected</p>
           <h2 className="text-4xl font-bold">Key Projects</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-8 pb-2">
           <ResumeCard
             title="EasyLlama (Ongoing)"
             subTitle="Compliance training platform — Frontend contribution"
