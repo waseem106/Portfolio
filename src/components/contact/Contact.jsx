@@ -77,7 +77,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <a
                   className="w-full min-w-0 inline-flex items-center justify-center gap-3 px-4 md:px-6 h-12 rounded-lg bg-[#141518] text-sm md:text-base text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
                   href={`mailto:${emailAddress}?subject=${encodeURIComponent("Portfolio Inquiry")}`}
@@ -95,14 +95,14 @@ const Contact = () => {
                   WhatsApp
                 </a>
                 <a
-                  className="w-full min-w-0 sm:col-span-2 md:col-span-1 inline-flex items-center justify-center gap-3 px-4 md:px-6 h-12 rounded-lg bg-[#141518] text-sm md:text-base text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
+                  className="w-full min-w-0 inline-flex items-center justify-center gap-3 px-4 md:px-6 h-12 rounded-lg bg-[#141518] text-sm md:text-base text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
                   href={`tel:${phoneNumber}`}
                 >
                   <FaPhoneAlt />
                   Call
                 </a>
                 <a
-                  className="w-full min-w-0 md:col-span-1 inline-flex items-center justify-center gap-3 px-4 md:px-6 h-12 rounded-lg bg-[#141518] text-sm md:text-base text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
+                  className="w-full min-w-0 inline-flex items-center justify-center gap-3 px-4 md:px-6 h-12 rounded-lg bg-[#141518] text-sm md:text-base text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
                   href={cvUrl}
                   download
                 >
