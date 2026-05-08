@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <meta name="robots" content="noindex" />
+    <script>
+      // SPA fallback for GitHub Pages.
+      // If a user hits a non-root URL directly, redirect to index.html and
+      // preserve the path/query/hash so the app can handle it.
+      (function () {
+        var l = window.location;
+        var redirect =
+          l.protocol +
+          "//" +
+          l.host +
+          (l.pathname.split("/").slice(0, 2).join("/") || "") +
+          "/?p=" +
+          encodeURIComponent(l.pathname + l.search + l.hash);
+        l.replace(redirect);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
+

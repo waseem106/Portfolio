@@ -26,6 +26,19 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Waseem Aziz || Personal Portfolio</title>
+    <script>
+      // Support GitHub Pages SPA redirects via public/404.html
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var p = params.get("p");
+        if (!p) return;
+        params.delete("p");
+        var newUrl = window.location.pathname.replace(/\/$/, "") + p;
+        var qs = params.toString();
+        if (qs) newUrl += (newUrl.indexOf("?") === -1 ? "?" : "&") + qs;
+        window.history.replaceState(null, "", newUrl);
+      })();
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
