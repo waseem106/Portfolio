@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import {Ppic} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
@@ -76,13 +76,24 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <FaFacebookF />
+                    <a
+                      href="https://www.linkedin.com/in/waseemazizjanjua/"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="LinkedIn"
+                    >
+                      <FaLinkedinIn />
+                    </a>
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
+                    <a
+                      href="https://github.com/waseem106"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="GitHub"
+                    >
+                      <FaGithub />
+                    </a>
                   </span>
                 </div>
               </div>

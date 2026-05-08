@@ -3,6 +3,8 @@ import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpeg";
+import easyllamaImg from "./images/projects/easyllama.png";
+import smodinImg from "./images/projects/smodin.png";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
@@ -17,6 +19,8 @@ export {
   projectOne,
   projectTwo,
   projectThree,
+  easyllamaImg,
+  smodinImg,
   testimonialOne,
   testimonialTwo,
   quote,

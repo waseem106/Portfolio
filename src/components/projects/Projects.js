@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectThree, easyllamaImg, smodinImg } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -19,12 +19,14 @@ const Projects = () => {
         <ProjectsCard
           title="EasyLlama (Ongoing)"
           des="Building responsive, accessible UI components for a compliance training platform serving 3.8M+ learners across 8,000+ organizations. Focused on scalable frontend architecture and performance using React.js and Next.js."
-          src={projectOne}
+          src={easyllamaImg}
+          liveLink="https://dashboard.easyllama.com/"
         />
         <ProjectsCard
           title="Smodin — AI Platform & Chrome Extension"
           des="Contributed to an AI content generation/detection platform with ~1M monthly users. Built a Plasmo-based Chrome Extension that captures selected text and returns AI results inline via backend API integration (Next.js / NestJS)."
-          src={projectTwo}
+          src={smodinImg}
+          liveLink="https://smodin.io/"
         />
         <ProjectsCard
           title="RapidChat — Real-time Chat App"

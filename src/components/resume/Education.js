@@ -15,12 +15,24 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">2020 - 2024</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[400px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-8 pb-2">
           <ResumeCard
             title="BSc in Computer Science"
             subTitle="University of the Punjab, Gujranwala — (Sep 2020 - Jun 2024)"
             result="CGPA 3.37 / 4.00"
             des="Focused on core CS fundamentals and practical software development, with hands-on experience building full-stack web applications."
+          />
+          <ResumeCard
+            title="ICS"
+            subTitle="Manjanbazam Cadet College"
+            result="83% / 100%"
+            des="Completed intermediate studies with a strong foundation in analytical thinking and problem solving."
+          />
+          <ResumeCard
+            title="Matric"
+            subTitle="Manjanbazam Cadet College"
+            result="87% / 100%"
+            des="Built strong fundamentals through structured coursework and consistent academic performance."
           />
         </div>
       </div>
@@ -31,7 +43,7 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">Summary</p>
           <h2 className="text-3xl md:text-4xl font-bold">Profile</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[400px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-8 pb-2">
           <ResumeCard
             title="Full-Stack MERN Developer"
             subTitle="React.js • Next.js • Node.js • NestJS"

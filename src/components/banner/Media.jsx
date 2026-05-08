@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedinIn, FaReact, FaInstagram, FaNodeJs, FaCss3 } from "react-icons/fa";
+import { FaLinkedinIn, FaReact, FaInstagram, FaNodeJs, FaCss3, FaGithub } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 const Media = () => {
   return (
@@ -11,12 +11,36 @@ const Media = () => {
           <div className="flex gap-4">
             
             <span className="bannerIcon">
-              <a href="https://www.instagram.com/waseemazizjanjua/"><FaInstagram /></a>
+              <a
+                href="https://www.instagram.com/waseemazizjanjua/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+              >
+                <FaInstagram />
+              </a>
               
             </span>
             <span className="bannerIcon">
-              <a href="https://www.linkedin.com/in/waseemazizjanjua/"> <FaLinkedinIn /></a>
+              <a
+                href="https://www.linkedin.com/in/waseemazizjanjua/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+              >
+                <FaLinkedinIn />
+              </a>
               
+            </span>
+            <span className="bannerIcon">
+              <a
+                href="https://github.com/waseem106"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub"
+              >
+                <FaGithub />
+              </a>
             </span>
           </div>
         </div>
