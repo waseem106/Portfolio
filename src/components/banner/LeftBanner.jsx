@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
+import { FaDownload } from "react-icons/fa";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -10,6 +11,7 @@ const LeftBanner = () => {
       deleteSpeed: 10,
       delaySpeed: 2000,
     });
+    const cvUrl = `${import.meta.env.BASE_URL}Waseem_Aziz_CV.pdf`;
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
@@ -32,8 +34,26 @@ const LeftBanner = () => {
           React.js and Next.js. Focused on clean architecture, performance, and seamless API integration.
         </p>
       </div>
-     {/* Media */}
-     <Media />
+      <div className="flex flex-col gap-6">
+        <div className="flex flex-col sm:flex-row gap-4">
+          <a
+            href={cvUrl}
+            download
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 h-12 rounded-lg bg-[#141518] text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
+          >
+            <FaDownload />
+            Download CV
+          </a>
+          <a
+            href="#contact"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-6 h-12 rounded-lg bg-black bg-opacity-20 text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
+          >
+            Contact
+          </a>
+        </div>
+        {/* Media */}
+        <Media />
+      </div>
     </div>
   );
 }

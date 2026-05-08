@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Title from '../layouts/Title';
-import { FaCopy, FaEnvelope, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import { FaCopy, FaDownload, FaEnvelope, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   const emailAddress = "waseemaziz106@gmail.com";
   const phoneNumber = "+92-3066991687";
   const whatsappNumber = "923066991687";
+  const cvUrl = `${import.meta.env.BASE_URL}Waseem_Aziz_CV.pdf`;
 
   const [copied, setCopied] = useState(false);
 
@@ -76,7 +77,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
                 <a
                   className="w-full min-w-0 inline-flex items-center justify-center gap-3 px-4 md:px-6 h-12 rounded-lg bg-[#141518] text-sm md:text-base text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
                   href={`mailto:${emailAddress}?subject=${encodeURIComponent("Portfolio Inquiry")}`}
@@ -99,6 +100,14 @@ const Contact = () => {
                 >
                   <FaPhoneAlt />
                   Call
+                </a>
+                <a
+                  className="w-full min-w-0 md:col-span-1 inline-flex items-center justify-center gap-3 px-4 md:px-6 h-12 rounded-lg bg-[#141518] text-sm md:text-base text-gray-300 hover:text-white duration-300 hover:border-[1px] hover:border-designColor border border-transparent"
+                  href={cvUrl}
+                  download
+                >
+                  <FaDownload />
+                  CV
                 </a>
               </div>
 
