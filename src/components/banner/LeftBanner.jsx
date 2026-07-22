@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          Results-driven Full-Stack MERN Developer with 1+ year of hands-on experience building scalable web applications,
+          Results-driven Full-Stack MERN Developer with 1.5+ year of hands-on experience building scalable web applications,
           browser extensions, and AI-powered platforms in production. Currently contributing to EasyLlama — a compliance
           training platform serving 3.8M+ learners across 8,000+ organizations — delivering responsive, accessible UI with
           React.js and Next.js. Focused on clean architecture, performance, and seamless API integration.

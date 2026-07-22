@@ -48,7 +48,7 @@ const Education = () => {
             title="Full-Stack MERN Developer"
             subTitle="React.js • Next.js • Node.js • NestJS"
             result="Production Experience"
-            des="1+ year building scalable web apps, browser extensions, and AI-powered platforms with a strong focus on performance, accessibility, and clean architecture."
+            des="1.5+ year building scalable web apps, browser extensions, and AI-powered platforms with a strong focus on performance, accessibility, and clean architecture."
           />
          
         </div>
