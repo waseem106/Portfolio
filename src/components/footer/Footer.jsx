@@ -17,12 +17,12 @@ const Footer = () => {
             <p className="text-gray-200 text-lg font-titleFont font-semibold">
               Waseem Aziz
             </p>
-            <p className="text-gray-400 text-sm">Full-Stack MERN Developer</p>
+            <p className="text-gray-400 text-sm">Full-Stack Developer · AI / LLM</p>
           </div>
         </div>
         <p className="text-gray-400 text-base leading-6 max-w-md">
-          Full-Stack MERN Developer building scalable web apps, browser extensions, and
-          production-ready UI with React.js and Next.js.
+          Full-Stack Developer building multi-tenant AI SaaS, RAG pipelines, browser extensions, and
+          production-ready UI with Next.js, TypeScript, and Supabase.
         </p>
         <div className="flex gap-4">
           <span className="bannerIcon">

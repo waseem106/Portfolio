@@ -1,42 +1,42 @@
-import { FaChrome, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiMongodb, SiNestjs, SiSocketdotio } from "react-icons/si";
+import { FaChrome, FaDatabase, FaReact } from "react-icons/fa";
+import { SiNestjs, SiSupabase, SiOpenai } from "react-icons/si";
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    icon: <FaReact />,
-    title: "Frontend Engineering (React/Next.js)",
-    des: "Build responsive, accessible UI with scalable component architecture, smooth interactions, and performance-first rendering.",
+    icon: <SiOpenai />,
+    title: "AI / LLM Product Engineering",
+    des: "Ship LLM features to production — RAG retrieval, streaming chat, intent classification, and prompt guardrails against injection and off-topic leakage.",
   },
   {
     id: 2,
-    icon: <SiMongodb />,
-    title: "Full‑Stack MERN Development",
-    des: "Deliver end-to-end features with React, Node/Express, and MongoDB/MySQL — from UI to APIs to database schema.",
+    icon: <FaDatabase />,
+    title: "RAG Knowledge Pipelines",
+    des: "Build ingestion-to-answer pipelines: PDF/DOCX parsing, document chunking, pgvector embeddings, and hybrid lexical + vector retrieval that grounds every response.",
   },
   {
     id: 3,
-    icon: <SiNestjs />,
-    title: "Backend APIs (NestJS/Express)",
-    des: "Design clean REST APIs with validation, authentication patterns, and modular services built for production maintainability.",
+    icon: <FaReact />,
+    title: "Frontend Engineering (React/Next.js)",
+    des: "Build responsive, accessible UI with Next.js App Router, Server Actions, and TypeScript — scalable component architecture with performance-first rendering.",
   },
   {
     id: 4,
-    icon: <SiSocketdotio />,
-    title: "Real‑time Apps (Socket.IO)",
-    des: "Implement real-time messaging, groups, and live updates with predictable event flows and reliable client/server syncing.",
+    icon: <SiSupabase />,
+    title: "Multi-Tenant SaaS Architecture",
+    des: "Enforce tenant isolation in depth — route middleware, an RBAC permission matrix, and PostgreSQL Row-Level Security backed by versioned Supabase migrations.",
   },
   {
     id: 5,
-    icon: <FaChrome />,
-    title: "Chrome Extensions (Plasmo)",
-    des: "Build production-ready extensions (content scripts + UI) that capture page context and integrate securely with backend APIs.",
+    icon: <SiNestjs />,
+    title: "Backend APIs (NestJS/Node.js)",
+    des: "Design clean REST APIs and server actions with Zod validation, authentication patterns, and modular services built for production maintainability.",
   },
   {
     id: 6,
-    icon: <FaNodeJs />,
-    title: "AI Product Integration",
-    des: "Integrate AI-powered workflows into the product UX (async states, results rendering, edge cases) for real users in production.",
+    icon: <FaChrome />,
+    title: "Chrome Extensions (Plasmo)",
+    des: "Build production-ready extensions (content scripts + UI) that capture page context and integrate securely with backend APIs.",
   },
 ];

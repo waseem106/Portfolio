@@ -4,7 +4,12 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Full-Stack MERN Developer.", "React & Next.js Developer.", "NestJS & Node.js Developer."],
+      words: [
+        "Full-Stack Developer.",
+        "Next.js & React Developer.",
+        "AI / LLM Product Engineer.",
+        "NestJS & Node.js Developer.",
+      ],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -26,10 +31,13 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          Results-driven Full-Stack MERN Developer with 1.5+ year of hands-on experience building scalable web applications,
-          browser extensions, and AI-powered platforms in production. Currently contributing to EasyLlama — a compliance
-          training platform serving 3.8M+ learners across 8,000+ organizations — delivering responsive, accessible UI with
-          React.js and Next.js. Focused on clean architecture, performance, and seamless API integration.
+          Results-driven Full-Stack Developer with 1.5+ years of hands-on experience building production web
+          applications, AI-powered platforms, and browser extensions. Currently a core contributor to{" "}
+          <span className="text-designColor">Devsloop Nexus</span> — a multi-tenant AI customer-engagement SaaS
+          built on Next.js 16, React 19, TypeScript and Supabase/PostgreSQL — owning features end-to-end across
+          RAG retrieval pipelines, LLM integration, role-based access control, and row-level tenant isolation.
+          Previously delivered frontend and NestJS backend features for Smodin (~1M monthly users) and accessible
+          UI for EasyLlama (3.8M+ learners). Strong focus on clean architecture, data security, and test coverage.
         </p>
       </div>
       <Media />

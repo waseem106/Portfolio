@@ -45,10 +45,10 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-8 pb-2">
           <ResumeCard
-            title="Full-Stack MERN Developer"
-            subTitle="React.js • Next.js • Node.js • NestJS"
+            title="Full-Stack Developer"
+            subTitle="Next.js • React • TypeScript • Supabase • AI/LLM"
             result="Production Experience"
-            des="1.5+ year building scalable web apps, browser extensions, and AI-powered platforms with a strong focus on performance, accessibility, and clean architecture."
+            des="1.5+ years building production web applications, AI-powered platforms, and browser extensions — with a strong focus on clean architecture, data security, tenant isolation, and test coverage."
           />
          
         </div>

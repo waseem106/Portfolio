@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectThree, easyllamaImg, smodinImg } from "../../assets/index";
+import { projectOne, projectThree, easyllamaImg, smodinImg, nexusImg } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -16,6 +16,12 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <ProjectsCard
+          title="Devsloop Nexus — Multi-Tenant AI SaaS"
+          des="Core contributor to a multi-tenant AI customer-engagement platform (Next.js 16, React 19, TypeScript, Supabase, Tailwind v4) shipping an embeddable AI chat widget and admin dashboard. Built the RAG knowledge pipeline — PDF/DOCX ingestion, chunking, pgvector embeddings, hybrid lexical + vector retrieval — plus a Claude API layer with streaming, and tenant isolation via RBAC and PostgreSQL Row-Level Security."
+          src={nexusImg}
+          liveLink="https://nexus.devslooptech.com/"
+        />
         <ProjectsCard
           title="EasyLlama (Ongoing)"
           des="Building responsive, accessible UI components for a compliance training platform serving 3.8M+ learners across 8,000+ organizations. Focused on scalable frontend architecture and performance using React.js and Next.js."

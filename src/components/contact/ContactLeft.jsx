@@ -13,11 +13,11 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Waseem Aziz</h3>
         <p className="text-lg font-normal text-gray-400">
-          Full-Stack MERN Developer
+          Full-Stack Developer · AI / LLM
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Building scalable web applications, browser extensions, and AI-powered platforms with a focus on performance,
-          accessibility, and clean architecture.
+          Building multi-tenant AI SaaS, RAG retrieval pipelines, and production web applications with a focus on
+          clean architecture, data security, and accessibility.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+92-3066991687</span>

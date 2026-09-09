@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaLinkedinIn, FaReact, FaInstagram, FaNodeJs, FaCss3, FaGithub } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
+import { FaLinkedinIn, FaReact, FaInstagram, FaNodeJs, FaGithub } from "react-icons/fa";
+import { SiNextdotjs, SiTypescript, SiSupabase } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -49,17 +49,20 @@ const Media = () => {
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
+            <span className="bannerIcon" title="Next.js">
+              <SiNextdotjs />
+            </span>
+            <span className="bannerIcon" title="React">
               <FaReact />
             </span>
-            <span className="bannerIcon">
+            <span className="bannerIcon" title="TypeScript">
+              <SiTypescript />
+            </span>
+            <span className="bannerIcon" title="Supabase">
+              <SiSupabase />
+            </span>
+            <span className="bannerIcon" title="Node.js">
               <FaNodeJs />
-            </span>
-            <span className="bannerIcon">
-              <FaCss3 />
-            </span>
-            <span className="bannerIcon">
-              <SiMongodb />
             </span>
           </div>
         </div>

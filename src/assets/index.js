@@ -5,6 +5,7 @@ import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpeg";
 import easyllamaImg from "./images/projects/easyllama.png";
 import smodinImg from "./images/projects/smodin.png";
+import nexusImg from "./images/projects/nexus.svg";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
@@ -21,6 +22,7 @@ export {
   projectThree,
   easyllamaImg,
   smodinImg,
+  nexusImg,
   testimonialOne,
   testimonialTwo,
   quote,

@@ -19,7 +19,7 @@ const Experience = () => {
             title="Associate MERN Stack Developer"
             subTitle="Devsloop Technologies — (Jul 2025 - Present)"
             result="Gujranwala, Pakistan"
-            des="Contributing to Smodin (AI content generation & detection) serving ~1M monthly users. Building React/Next.js features, maintaining NestJS services and REST APIs, and shipping a Plasmo-based Chrome Extension integrated with backend APIs."
+            des="Core contributor to Devsloop Nexus, a multi-tenant AI customer-engagement SaaS — owning features end-to-end from database migration and RLS policy through server action, RBAC gate and UI. Integrated LLM capabilities in production (RAG retrieval, streaming chat, intent classification, prompt guardrails) and maintained the Docker/Jenkins staging pipeline. Previously contributed React/Next.js features and NestJS services to Smodin (~1M monthly users) and a Plasmo Chrome Extension."
           />
           <ResumeCard
             title="MERN Stack Developer Intern"
@@ -29,7 +29,7 @@ const Experience = () => {
           />
           <ResumeCard
             title="Frontend / MERN Developer"
-            subTitle="Ezitech Software House — (Feb 2025 - Mar 2025)"
+            subTitle="Eizitech Software House — (Feb 2025 - Mar 2025)"
             result="Rawalpindi, Pakistan"
             des="Designed and implemented responsive UIs with React.js, Tailwind CSS, and Bootstrap. Developed and integrated RESTful APIs using Node.js and Express.js across multiple client projects."
           />
@@ -41,6 +41,12 @@ const Experience = () => {
           <h2 className="text-4xl font-bold">Key Projects</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-8 pb-2">
+          <ResumeCard
+            title="Devsloop Nexus (Ongoing)"
+            subTitle="Multi-tenant AI customer-engagement SaaS"
+            result="Next.js 16 / Supabase / Claude API"
+            des="Core contributor delivering an embeddable AI chat widget and internal admin dashboard — RAG knowledge pipeline (PDF/DOCX ingestion, chunking, pgvector embeddings, hybrid lexical + vector retrieval), a provider-agnostic Claude API layer with streaming, and multi-layer tenant isolation via middleware, an RBAC matrix and PostgreSQL Row-Level Security."
+          />
           <ResumeCard
             title="EasyLlama (Ongoing)"
             subTitle="Compliance training platform — Frontend contribution"

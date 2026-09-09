@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 686" width="1220" height="686" role="img" aria-label="Devsloop Nexus — multi-tenant AI SaaS">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1e22"/>
+      <stop offset="1" stop-color="#23272b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff014f"/>
+      <stop offset="1" stop-color="#ff5a7e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1220" height="686" fill="url(#bg)"/>
+  <g stroke="#2e3338" stroke-width="1" opacity="0.5">
+    <path d="M0 114h1220M0 228h1220M0 342h1220M0 456h1220M0 570h1220"/>
+    <path d="M152 0v686M356 0v686M560 0v686M764 0v686M968 0v686"/>
+  </g>
+  <circle cx="610" cy="343" r="300" fill="#ff014f" opacity="0.06"/>
+
+  <!-- header (centered so object-cover crops stay safe) -->
+  <text x="610" y="112" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="40" font-weight="700"
+        letter-spacing="8" fill="#ff014f" text-anchor="middle">DEVSLOOP NEXUS</text>
+  <text x="610" y="164" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="27"
+        fill="#c4cfde" text-anchor="middle">Multi-tenant AI SaaS</text>
+
+  <!-- RAG knowledge-graph motif -->
+  <g stroke="url(#accent)" stroke-width="3" opacity="0.75" fill="none">
+    <path d="M610 380 L470 300 M610 380 L470 460 M610 380 L750 300 M610 380 L750 460 M610 380 L610 268 M610 380 L610 492"/>
+  </g>
+  <g fill="#212428" stroke="url(#accent)" stroke-width="3.5">
+    <circle cx="470" cy="300" r="24"/><circle cx="470" cy="460" r="24"/>
+    <circle cx="750" cy="300" r="24"/><circle cx="750" cy="460" r="24"/>
+    <circle cx="610" cy="268" r="24"/><circle cx="610" cy="492" r="24"/>
+  </g>
+  <circle cx="610" cy="380" r="50" fill="url(#accent)"/>
+  <text x="610" y="393" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="30"
+        font-weight="700" fill="#ffffff" text-anchor="middle">AI</text>
+
+  <!-- stack chips, centered group -->
+  <g font-family="Poppins, Helvetica, Arial, sans-serif" font-size="21" fill="#c4cfde">
+    <g fill="#2b2f34" stroke="#3a3f45">
+      <rect x="290" y="580" width="152" height="48" rx="24"/>
+      <rect x="456" y="580" width="146" height="48" rx="24"/>
+      <rect x="616" y="580" width="150" height="48" rx="24"/>
+      <rect x="780" y="580" width="150" height="48" rx="24"/>
+    </g>
+    <text x="366" y="611" text-anchor="middle">Next.js 16</text>
+    <text x="529" y="611" text-anchor="middle">Supabase</text>
+    <text x="691" y="611" text-anchor="middle">RAG + RLS</text>
+    <text x="855" y="611" text-anchor="middle">Claude API</text>
+  </g>
+</svg>

@@ -42,13 +42,14 @@ const Skills = () => {
         delay={0.05}
         items={[
           "React.js",
-          "Next.js",
+          "Next.js (App Router)",
+          "Server Actions",
           "TypeScript",
           "JavaScript",
           "Tailwind CSS",
           "SCSS",
           "Bootstrap",
-          "Responsive UI",
+          "Recharts",
           "Accessibility",
         ]}
       />
@@ -59,30 +60,68 @@ const Skills = () => {
         delay={0.1}
         items={[
           "Node.js",
-          "Express.js",
           "NestJS",
+          "Express.js",
           "Socket.IO",
           "REST APIs",
+          "Zod",
+        ]}
+      />
+
+      <SkillGroup
+        subtitle="Skills"
+        title="AI / LLM"
+        delay={0.15}
+        items={[
+          "Anthropic Claude API",
+          "RAG Pipelines",
+          "Vector Embeddings",
+          "Semantic Search",
+          "Prompt Engineering",
+          "LLM Guardrails",
+          "Ollama",
         ]}
       />
 
       <SkillGroup
         subtitle="Skills"
         title="Database"
-        delay={0.15}
-        items={["MongoDB", "MySQL", "Firebase"]}
+        delay={0.2}
+        items={[
+          "PostgreSQL",
+          "Supabase",
+          "pgvector",
+          "Row-Level Security (RLS)",
+          "MongoDB",
+          "MySQL",
+          "Firebase",
+        ]}
       />
 
       <SkillGroup
         subtitle="Skills"
-        title="Tools"
-        delay={0.2}
+        title="DevOps"
+        delay={0.25}
         items={[
-          "Git",
-          "GitHub",
+          "Docker",
+          "Jenkins",
+          "GitHub Actions",
+          "Git & GitHub",
           "Bitbucket",
+          "Supabase CLI",
+        ]}
+      />
+
+      <SkillGroup
+        subtitle="Skills"
+        title="Testing & Tools"
+        delay={0.3}
+        items={[
+          "Vitest",
           "Postman",
           "Plasmo (Chrome Extensions)",
+          "Code Review",
+          "Agile / Scrum",
         ]}
       />
     </motion.div>
