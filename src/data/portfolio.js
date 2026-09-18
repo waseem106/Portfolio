@@ -1,5 +1,6 @@
 import easyllama from '../assets/images/projects/easyllama.png';
 import smodin from '../assets/images/projects/smodin.png';
+import smodinExtension from '../assets/images/projects/smodin-extension.webp';
 import rapidchat from '../assets/images/projects/projectThree.jpeg';
 import vcart from '../assets/images/projects/projectOne.jpg';
 
@@ -29,12 +30,21 @@ export const projects = [
     url: 'https://dashboard.easyllama.com/', color: 'llama', role: 'Frontend engineering',
   },
   {
-    id: 'smodin', name: 'Smodin', category: 'AI & SaaS', type: 'AI WRITING & BROWSER EXTENSION',
-    summary: 'AI assistance, right where you’re working.',
-    description: 'An AI content generation and detection platform with approximately one million monthly users. I contributed to the web platform, backend services, and a browser extension.',
-    contributions: ['Built a Plasmo Chrome extension to capture selected text and return AI results inline.', 'Integrated the extension with backend APIs.', 'Delivered frontend features in React/Next.js and backend modules in NestJS.'],
-    stack: ['Next.js', 'NestJS', 'Plasmo'], image: smodin,
-    url: 'https://smodin.io/', color: 'smodin', role: 'Full-stack & extension development',
+    id: 'smodin-extension', name: 'Smodin Chrome Extension', category: 'Extensions', type: 'CHROME EXTENSION · AI WRITING',
+    summary: 'AI writing tools, one selection away.',
+    description: 'A published Chrome extension that brings Smodin’s AI detection and rewriting tools into the browser. It lets people work with text on webpages and in editors such as Google Docs, Notion, and Gmail, without switching to a separate app.',
+    contributions: ['Built the Chrome extension using Plasmo.', 'Implemented selected-text capture and inline AI results through content scripts and extension UI.', 'Connected the browser experience to Smodin’s backend APIs.'],
+    stack: ['Plasmo', 'Chrome Extension', 'Content scripts', 'API integration'], image: smodinExtension,
+    url: 'https://chromewebstore.google.com/detail/smodin-detect-ai-humanize/aighbajkamplcinockonchknbclndded',
+    linkLabel: 'View on Chrome Web Store', color: 'extension', role: 'Chrome extension development',
+  },
+  {
+    id: 'smodin', name: 'Smodin', category: 'AI & SaaS', type: 'AI WRITING PLATFORM',
+    summary: 'Thoughtful tools for better writing.',
+    description: 'An AI content generation and detection platform with approximately one million monthly users. I contributed to the web application and backend services.',
+    contributions: ['Delivered frontend features in React and Next.js.', 'Developed backend modules and controllers in NestJS.', 'Integrated the web interface with backend APIs.'],
+    stack: ['React', 'Next.js', 'NestJS'], image: smodin,
+    url: 'https://smodin.io/', color: 'smodin', role: 'Full-stack web development',
   },
   {
     id: 'rapidchat', name: 'RapidChat', category: 'Web apps', type: 'REAL-TIME MESSAGING',

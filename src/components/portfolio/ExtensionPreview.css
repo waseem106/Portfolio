@@ -1,0 +1,95 @@
+.extension-preview {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  padding: 24px 26px;
+  background: #eee7fb;
+}
+
+.extension-preview-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  color: #432873;
+}
+
+.extension-preview-heading > span:first-child {
+  font-family: 'Manrope', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -.8px;
+}
+
+.extension-preview-heading > span:first-child > span {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.extension-store-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 9px;
+  border: 1px solid #d6c7ed;
+  border-radius: 5px;
+  background: #ffffff80;
+  font-size: 8px;
+}
+
+.extension-store-badge svg { font-size: 14px; }
+
+.extension-promo {
+  position: absolute;
+  width: 84%;
+  height: auto;
+  max-height: 235px;
+  object-fit: contain;
+  top: 80px;
+  left: 8%;
+  border-radius: 7px;
+  box-shadow: 0 12px 30px #48248125;
+  transform: rotate(-3deg);
+  transition: transform .35s;
+}
+
+.project-visual:hover .extension-promo { transform: translateY(-5px) rotate(0); }
+
+.project-store-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding-block: 5px;
+  font-size: 11px;
+  color: #67419c;
+}
+
+.project-store-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+.filters { flex-wrap: wrap; }
+
+@media (max-width: 1100px) and (min-width: 761px) {
+  .extension-preview { padding: 23px 20px; }
+  .extension-preview-heading { flex-wrap: wrap; gap: 5px; }
+  .extension-preview-heading > span:first-child { font-size: 21px; }
+  .extension-promo { top: 95px; }
+}
+
+@media (max-width: 540px) {
+  .extension-preview { padding: 22px 18px; }
+  .extension-preview-heading > span:first-child { font-size: 20px; }
+  .extension-preview-heading > span:first-child > span { font-size: 10px; }
+  .extension-store-badge { font-size: 7px; padding: 6px; gap: 4px; }
+  .extension-store-badge svg { font-size: 12px; }
+  .extension-promo { width: 88%; left: 6%; top: 83px; }
+}
+
+@media (max-width: 380px) {
+  .extension-preview-heading { flex-wrap: wrap; }
+  .extension-promo { top: 92px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-visual:hover .extension-promo { transform: rotate(-3deg); }
+}
