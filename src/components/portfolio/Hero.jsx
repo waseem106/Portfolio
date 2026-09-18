@@ -37,7 +37,7 @@ export default function Hero() {
           <button className="code-toggle" onClick={() => setShowCode(value => !value)} aria-pressed={showCode}><FiCode /> {showCode ? 'Back to the human' : 'Peek behind the code'} <FiArrowUpRight /></button>
         </div>
       </div>
-      <div className="hero-bottom"><a href="#projects"><span className="scroll-icon"><FiArrowDown /></span> SCROLL TO EXPLORE</a><p>A little creativity. A lot of purpose.</p><span className="hero-index">01 / 05</span></div>
+      <div className="hero-bottom"><a href="#projects"><span className="scroll-icon"><FiArrowDown /></span> SCROLL TO EXPLORE</a><p>A little creativity. A lot of purpose.</p><span className="hero-index">01 / 06</span></div>
     </section>
   );
 }

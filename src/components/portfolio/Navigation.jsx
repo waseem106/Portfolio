@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FiArrowUpRight, FiMenu, FiX } from 'react-icons/fi';
 
-const links = [['home', 'Home'], ['projects', 'Work'], ['about', 'About'], ['resume', 'Experience']];
+const links = [['home', 'Home'], ['projects', 'Work'], ['about', 'About'], ['skills', 'Skills'], ['resume', 'Experience']];
 
 export default function Navigation() {
   const [open, setOpen] = useState(false);
